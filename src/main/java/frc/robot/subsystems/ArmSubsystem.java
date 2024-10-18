@@ -1,7 +1,7 @@
 package frc.robot.subsystems;
 
 import com.revrobotics.CANSparkMax;
-import com.revrobotics.CANSparkLowLevel.MotorType;
+import com.revrobotics.CANSparkMaxLowLevel.MotorType;
 
 public class ArmSubsystem {
     private CANSparkMax liftArmMotor = new CANSparkMax(8, MotorType.kBrushless);
